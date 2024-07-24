@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows 11\\source\\repos\\Juan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\data\\juandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\data\\juandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\juan.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\juan.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\appsettings.json",
+              "RelativeDocumentMoniker": "Juan\\appsettings.json",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\appsettings.json",
+              "RelativeToolTip": "Juan\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-24T14:37:22.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Program.cs",
+              "RelativeDocumentMoniker": "Juan\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Program.cs",
+              "RelativeToolTip": "Juan\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:33:38.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JuanDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\JuanDbContext.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\JuanDbContext.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\JuanDbContext.cs",
+              "RelativeToolTip": "Juan\\Data\\JuanDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:27:09.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Juan",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Juan.csproj",
+              "RelativeDocumentMoniker": "Juan\\Juan.csproj",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Juan.csproj",
+              "RelativeToolTip": "Juan\\Juan.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-24T14:26:14.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Juan\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABoEAAAAAAAAAAAmwCsEAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T12:33:14.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Juan\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T12:25:13.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Juan\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Juan\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T12:24:27.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
