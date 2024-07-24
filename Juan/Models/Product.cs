@@ -9,8 +9,10 @@ namespace Juan.Models
 
         
         public string ProductName { get; set; }
-        public string Img { get; set; }
 
+        [Required]
+        public string Img { get; set; }
+        [Required]
 
 
 
@@ -29,5 +31,6 @@ namespace Juan.Models
 
         public DateTime? DeleteDate { get; set; }
         public bool IsDelete { get; set; }
+        public bool IsSelected { get; set; }
     }
 }

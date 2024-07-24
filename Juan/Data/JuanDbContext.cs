@@ -12,6 +12,7 @@ namespace Juan.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
+       
         public JuanDbContext(DbContextOptions options) : base(options)
         {
         }
