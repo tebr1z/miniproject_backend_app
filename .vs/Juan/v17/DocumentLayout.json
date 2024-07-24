@@ -3,32 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\source\\repos\\Juan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\data\\juandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\data\\juandbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724172305_productCategoryUpdateImgTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724172305_productCategoryUpdateImgTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171837_productCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724171837_productCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\models\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171534_productCategoryUpdateTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724171534_productCategoryUpdateTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171110_productCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724171110_productCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724170711_productCategoryUpdateTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724170711_productCategoryUpdateTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724170207_productCategoryUpdate2Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724170207_productCategoryUpdate2Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724165115_productTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724165115_productTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724154545_sliderTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724154545_sliderTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\juan.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\juan.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724151359_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Juan\\Data\\Migrations\\20240724151359_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,101 +82,248 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 17,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\appsettings.json",
-              "RelativeDocumentMoniker": "Juan\\appsettings.json",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\appsettings.json",
-              "RelativeToolTip": "Juan\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-24T14:37:22.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Program.cs",
-              "RelativeDocumentMoniker": "Juan\\Program.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Program.cs",
-              "RelativeToolTip": "Juan\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T14:33:38.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JuanDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\JuanDbContext.cs",
-              "RelativeDocumentMoniker": "Juan\\Data\\JuanDbContext.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\JuanDbContext.cs",
-              "RelativeToolTip": "Juan\\Data\\JuanDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T14:27:09.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Juan",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Juan.csproj",
-              "RelativeDocumentMoniker": "Juan\\Juan.csproj",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Juan.csproj",
-              "RelativeToolTip": "Juan\\Juan.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-24T14:26:14.532Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240724172305_productCategoryUpdateImgTable.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724172305_productCategoryUpdateImgTable.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724172305_productCategoryUpdateImgTable.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724172305_productCategoryUpdateImgTable.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724172305_productCategoryUpdateImgTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:23:05.255Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Juan\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Juan\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAABoEAAAAAAAAAAAmwCsEAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T12:33:14.493Z",
+              "Title": "20240724171837_productCategoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171837_productCategoryTable.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724171837_productCategoryTable.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171837_productCategoryTable.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724171837_productCategoryTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:18:37.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240724171534_productCategoryUpdateTable.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171534_productCategoryUpdateTable.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724171534_productCategoryUpdateTable.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171534_productCategoryUpdateTable.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724171534_productCategoryUpdateTable.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:15:34.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240724171110_productCategoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171110_productCategoryTable.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724171110_productCategoryTable.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724171110_productCategoryTable.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724171110_productCategoryTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:11:10.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240724170711_productCategoryUpdateTable.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724170711_productCategoryUpdateTable.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724170711_productCategoryUpdateTable.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724170711_productCategoryUpdateTable.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724170711_productCategoryUpdateTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:07:11.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240724170207_productCategoryUpdate2Table.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724170207_productCategoryUpdate2Table.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724170207_productCategoryUpdate2Table.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724170207_productCategoryUpdate2Table.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724170207_productCategoryUpdate2Table.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T17:02:07.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240724165115_productTable.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724165115_productTable.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724165115_productTable.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724165115_productTable.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724165115_productTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T16:51:16.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Juan\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Juan\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMBAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T12:25:13.041Z",
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "Juan\\Models\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\ProductCategory.cs",
+              "RelativeToolTip": "Juan\\Models\\ProductCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T16:45:52.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Juan\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\Product.cs",
+              "RelativeToolTip": "Juan\\Models\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T16:40:59.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Juan\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Juan\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Juan\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\Category.cs",
+              "RelativeToolTip": "Juan\\Models\\Category.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T12:24:27.224Z",
+              "WhenOpened": "2024-07-24T16:39:58.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240724154545_sliderTable.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724154545_sliderTable.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724154545_sliderTable.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724154545_sliderTable.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724154545_sliderTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T15:45:45.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Slider.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\Slider.cs",
+              "RelativeDocumentMoniker": "Juan\\Models\\Slider.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\Slider.cs",
+              "RelativeToolTip": "Juan\\Models\\Slider.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T15:42:12.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240724151359_initial.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724151359_initial.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\Migrations\\20240724151359_initial.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\Migrations\\20240724151359_initial.cs",
+              "RelativeToolTip": "Juan\\Data\\Migrations\\20240724151359_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T15:13:59.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Juan\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-24T15:10:54.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JuanDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\JuanDbContext.cs",
+              "RelativeDocumentMoniker": "Juan\\Data\\JuanDbContext.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Data\\JuanDbContext.cs",
+              "RelativeToolTip": "Juan\\Data\\JuanDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:57:07.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "Juan\\Models\\Setting.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\Setting.cs",
+              "RelativeToolTip": "Juan\\Models\\Setting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:53:00.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Juan\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Juan\\Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:46:44.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Program.cs",
+              "RelativeDocumentMoniker": "Juan\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Program.cs",
+              "RelativeToolTip": "Juan\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T14:33:38.067Z",
               "EditorCaption": ""
             }
           ]
