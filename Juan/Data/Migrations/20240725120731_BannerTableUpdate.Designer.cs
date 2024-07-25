@@ -4,6 +4,7 @@ using Juan.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Juan.Data.Migrations
 {
     [DbContext(typeof(JuanDbContext))]
-    partial class JuanDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240725120731_BannerTableUpdate")]
+    partial class BannerTableUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -97,23 +100,6 @@ namespace Juan.Data.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("Juan.Models.Color", b =>
-                {
-                    b.Property<int>("ColorId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ColorId"));
-
-                    b.Property<string>("ColorName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ColorId");
-
-                    b.ToTable("Color");
-                });
-
             modelBuilder.Entity("Juan.Models.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -186,58 +172,6 @@ namespace Juan.Data.Migrations
                     b.ToTable("ProductCategories");
                 });
 
-            modelBuilder.Entity("Juan.Models.ProductColor", b =>
-                {
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ColorId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductId", "ColorId");
-
-                    b.HasIndex("ColorId");
-
-                    b.ToTable("ProductColors");
-                });
-
-            modelBuilder.Entity("Juan.Models.ProductImage", b =>
-                {
-                    b.Property<int>("ProductImageId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductImageId"));
-
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductImageId");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductImages");
-                });
-
-            modelBuilder.Entity("Juan.Models.ProductSize", b =>
-                {
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SizeId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductId", "SizeId");
-
-                    b.HasIndex("SizeId");
-
-                    b.ToTable("ProductSizes");
-                });
-
             modelBuilder.Entity("Juan.Models.Setting", b =>
                 {
                     b.Property<int>("Id")
@@ -269,23 +203,6 @@ namespace Juan.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Settings");
-                });
-
-            modelBuilder.Entity("Juan.Models.Size", b =>
-                {
-                    b.Property<int>("SizeId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SizeId"));
-
-                    b.Property<string>("SizeName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("SizeId");
-
-                    b.ToTable("Size");
                 });
 
             modelBuilder.Entity("Juan.Models.Slider", b =>
@@ -357,79 +274,14 @@ namespace Juan.Data.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Juan.Models.ProductColor", b =>
-                {
-                    b.HasOne("Juan.Models.Color", "Color")
-                        .WithMany("ProductColors")
-                        .HasForeignKey("ColorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Juan.Models.Product", "Product")
-                        .WithMany("ProductColors")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Color");
-
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("Juan.Models.ProductImage", b =>
-                {
-                    b.HasOne("Juan.Models.Product", "Product")
-                        .WithMany("ProductImages")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("Juan.Models.ProductSize", b =>
-                {
-                    b.HasOne("Juan.Models.Product", "Product")
-                        .WithMany("ProductSizes")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Juan.Models.Size", "Size")
-                        .WithMany("ProductSizes")
-                        .HasForeignKey("SizeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
-
-                    b.Navigation("Size");
-                });
-
             modelBuilder.Entity("Juan.Models.Category", b =>
                 {
                     b.Navigation("ProductCategories");
                 });
 
-            modelBuilder.Entity("Juan.Models.Color", b =>
-                {
-                    b.Navigation("ProductColors");
-                });
-
             modelBuilder.Entity("Juan.Models.Product", b =>
                 {
                     b.Navigation("ProductCategories");
-
-                    b.Navigation("ProductColors");
-
-                    b.Navigation("ProductImages");
-
-                    b.Navigation("ProductSizes");
-                });
-
-            modelBuilder.Entity("Juan.Models.Size", b =>
-                {
-                    b.Navigation("ProductSizes");
                 });
 #pragma warning restore 612, 618
         }

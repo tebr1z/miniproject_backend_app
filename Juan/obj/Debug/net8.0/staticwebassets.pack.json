@@ -321,6 +321,14 @@
       "PackagePath": "staticwebassets\\assets\\js\\active.js"
     },
     {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\js\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.12.4.min.js"
+    },
+    {
       "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\js\\modernizr-2.8.3.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\modernizr-2.8.3.min.js"
     },
