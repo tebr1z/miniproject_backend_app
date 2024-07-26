@@ -1,58 +1,39 @@
 ﻿@model Product
-<!-- Quick view modal start -->
-
-<!-- Quick view modal end -->
-
-
-
 
 <div class="product-details-inner">
     <div class="row">
+       
+            
         <div class="col-lg-5">
             <div class="product-large-slider mb-20">
                 @foreach (var image in Model.ProductImages)
                 {
                     <div class="pro-large-img img-zoom">
-                        <img src="~/assets/img/product/@image.ImageUrl"
-                             alt="product thumb" />
+                        <img src="~/assets/img/product/@image.ImageUrl" alt="product thumb" />
                     </div>
                 }
-
             </div>
             <div class="pro-nav slick-row-5">
-                <div class="pro-nav-thumb">
-                    <img src="~/assets/img/product/product-details-img1.jpg"
-                         alt="" />
-                </div>
-                <div class="pro-nav-thumb">
-                    <img src="~/assets/img/product/product-details-img2.jpg"
-                         alt="" />
-                </div>
-                <div class="pro-nav-thumb">
-                    <img src="~/assets/img/product/product-details-img3.jpg"
-                         alt="" />
-                </div>
-                <div class="pro-nav-thumb">
-                    <img src="~/assets/img/product/product-details-img4.jpg"
-                         alt="" />
-                </div>
+                @foreach (var image in Model.ProductImages)
+                {
+                    <div class="pro-nav-thumb">
+                        <img src="~/assets/img/product/@image.ImageUrl" alt="product thumb" />
+                    </div>
+                }
             </div>
         </div>
+
         <div class="col-lg-7">
             <div class="product-details-des">
-                <h3 class="pro-det-title">Primitive Mens Premium Shoes</h3>
+                <h3 class="pro-det-title">@Model.ProductName</h3>
                 <div class="pro-review">
                     <span><a href="#">1 Review(s)</a></span>
                 </div>
                 <div class="price-box">
-                    <span class="regular-price">$70.00</span>
-                    <span class="old-price"><del>$80.00</del></span>
+                    <span class="regular-price">@Model.Price</span>
+                    <span class="old-price"><del>@Model.OldPrice</del></span>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                    sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                    magna aliquyam erat, sed diam voluptua.
-                </p>
+                <p>@Model.Desc</p>
                 <div class="quantity-cart-box d-flex align-items-center mb-20">
                     <div class="quantity">
                         <div class="pro-qty">
@@ -63,8 +44,53 @@
                 </div>
                 <div class="availability mb-20">
                     <h5 class="cat-title">Availability:</h5>
-                    <span>In Stock</span>
+                    @if (Model.Count <= 0)
+                    {
+                        <span class="text-danger">Stok bitib</span>
+                    }
+                    else if (Model.Count <4)
+                    {
+                        <span class ="text-warning">Bitmək üzrədi</span>
+                    }
+                    else
+                    {
+                        <span >In Stock</span>
+                    }
                 </div>
+ <div class="product-options mb-20">
+            <div class="row">
+                <!-- Reng Dropdown -->
+                <div class="col-md-6">
+                    <div class="product-colors mb-20">
+                        <h5 class="cat-title">Colors:</h5>
+                        <select class="form-control">
+                            @foreach (var productColor in Model.ProductColors)
+                            {
+                                <option value="@productColor.Color.ColorId">
+                                    @productColor.Color.ColorName
+                                </option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Beden Dropdown -->
+                <div class="col-md-6">
+                    <div class="product-sizes mb-20">
+                        <h5 class="cat-title">Sizes:</h5>
+                        <select class="form-control">
+                                    @foreach (var productSize in Model.ProductSizes)
+                                    {
+                                        <option value="@productSize.Size.SizeId">
+                                            @productSize.Size.SizeName
+                                        </option>
+                                    }
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
                 <div class="share-icon">
                     <h5 class="cat-title">Share:</h5>
                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -76,3 +102,4 @@
         </div>
     </div>
 </div>
+
