@@ -30,7 +30,7 @@
 
                     <div class="product-item mb-50">
                         <div class="product-thumb">
-                            <a href="@product.ProductId">
+                            <a asp-controller ="product" asp-action="detail" asp-route-id="@product.ProductId">
                                 <img src="~/assets/img/product/@product.Img" alt="" />
                             </a>
                         </div>
