@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Juan.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\css\\Costum.css",
+      "PackagePath": "staticwebassets\\assets\\css\\Costum.css"
+    },
+    {
       "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\css\\images\\ui-icons_444444_256x240.png",
       "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_444444_256x240.png"
     },
