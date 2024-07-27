@@ -402,13 +402,13 @@
         <div class="slide-item">
             <div class="pro-item-small mt-30">
                 <div class="product-thumb">
-                    <a href="@Url.Action("Details", "Product", new { id = product.ProductId })">
+                    <a href="@Url.Action("detail", "product", new { id = product.ProductId })">
                         <img src="~/assets/img/product/@product.Img" alt="@product.ProductName" />
                     </a>
                 </div>
                 <div class="pro-small-content">
                     <h6 class="product-name">
-                        <a href="@Url.Action("Details", "Product", new { id = product.ProductId })">
+                        <a href="@Url.Action("details", "product", new { id = product.ProductId })">
                             @product.ProductName
                         </a>
                     </h6>

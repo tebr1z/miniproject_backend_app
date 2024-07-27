@@ -1,5 +1,20 @@
 ﻿$(document).ready(function () {
-
+	//Search
+	$(document).on("keyup", "#searchInput", function () {
+		let searchValue = $(this).val();
+		if (searchValue.trim() === "") {
+			$("#searchResults").html("");
+			return;
+		}
+		axios.get("/product/searchProduct", { params: { searchTerm: searchValue } })
+			.then(response => {
+				$("#searchResults").html(response.data);
+			})
+			.catch(error => {
+				console.error(error);
+			});
+	});
+	//Modal
     $(".productModal").click(function (ev) {
         ev.preventDefault();
 
@@ -70,3 +85,4 @@
     })
 
 })
+

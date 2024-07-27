@@ -27,7 +27,7 @@ namespace Juan.Controllers
                                         .Include(p => p.ProductCategories)
                                         .ThenInclude(pc => pc.Category)
                                         .ToListAsync(),
-                SelectedProducts = await _context.Products
+                SelectedProducts = await _context.Products 
                                             .Where(p => !p.IsDelete && p.IsSelected && p.Count > 0)
                                             .Include(p => p.ProductCategories)
                                             .ThenInclude(pc => pc.Category)

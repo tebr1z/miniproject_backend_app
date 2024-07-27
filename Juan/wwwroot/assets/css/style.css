@@ -34,10 +34,49 @@ body {
   font-size: 16px;
   font-family: "Open Sans", sans-serif; }
 
+
+
+
+
+
+
+.offcanvas-search-box {
+    position: relative; /* Container'ý position: relative yapýyoruz */
+}
+
+#searchResults {
+    max-height: 400px; /* Yükseklik sýnýrlamasý ekleyin (isteðe baðlý) */
+    overflow-y: auto; /* Ýçerik fazla olduðunda kaydýrma ekleyin */
+    position: absolute; /* Arama sonuçlarýný arama kutusunun altýna yerleþtirmek için */
+    top: 100%; /* Arama kutusunun hemen altýnda */
+    left: 0; /* Sol kenara hizala */
+    width: 100%; /* Arama kutusunun geniþliði kadar geniþlik */
+    background-color: #fff; /* Arama sonuçlarýnýn arka plan rengi */
+    border: 1px solid #ddd; /* Çerçeve rengi */
+    border-radius: 4px; /* Köþeleri yuvarlama */
+    z-index: 1000; /* Diðer içeriklerin üstünde kalmasýný saðlar */
+}
+
+.list-group-item {
+    border: none; /* Ürünler arasýnda fazladan kenarlýk olmamasý için */
+    padding: 10px 15px; /* Padding ekleyerek içeriði düzenleyin */
+    border-bottom: 1px solid #ddd; /* Alt kenarlýk ekleyin */
+}
+
+
+
+
+
+
+
+
+
+
 a {
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-  transition: 0.4s; }
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
   a:hover, a:focus {
     color: #e3a51e;
     outline: none;
@@ -1186,8 +1225,8 @@ fieldset {
       transform: rotate(180deg); }
 
 .offcanvas-search-box {
-  height: 100vh;
-  padding: 0 30px;
+  height: 1000vh;
+ 
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FpMrz1HKSh9DqlSCUVVjuoKkOqKDpR2cw2sU8TjedT4=",
+  "Hash": "pCHnF05xB6/JMk1oJgGrv+w9uxUhiIzD+8vVizZm9YE=",
   "Source": "Juan",
   "BasePath": "_content/Juan",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Juan.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\css\\Costum.css",
+      "SourceId": "Juan",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\",
+      "BasePath": "_content/Juan",
+      "RelativePath": "assets/css/Costum.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\Costum.css"
     },
     {
       "Identity": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\css\\images\\ui-icons_444444_256x240.png",

@@ -26,20 +26,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Windows 11/source/repos/Juan/Juan/Views/Shared/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Windows 11/source/repos/Juan/Juan/Views/Shared/_ProductPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Windows 11/source/repos/Juan/Juan/Views/Shared/_SelectedProduct.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWxlY3RlZFByb2R1Y3QuY3NodG1s
+[C:/Users/Windows 11/source/repos/Juan/Juan/Views/Shared/_SearchPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWFyY2hQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Windows 11/source/repos/Juan/Juan/Views/Shop/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxpbmRleC5jc2h0bWw=
+[C:/Users/Windows 11/source/repos/Juan/Juan/Views/Shared/_SelectedProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWxlY3RlZFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Windows 11/source/repos/Juan/Juan/Views/_ViewImports.cshtml]

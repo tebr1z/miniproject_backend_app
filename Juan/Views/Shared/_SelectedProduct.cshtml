@@ -1,4 +1,5 @@
 ﻿@model Juan.ViewModels.HomeVM
+
 <div class="container">
     <div class="row">
         <div class="col-12">
@@ -30,9 +31,12 @@
 
                     <div class="product-item mb-50">
                         <div class="product-thumb">
-                            <a asp-controller ="product" asp-action="detail" asp-route-id="@product.ProductId">
+
+                            <a asp-controller="product" asp-action="detail" asp-route-id="@product.ProductId">                           
+
                                 <img src="~/assets/img/product/@product.Img" alt="" />
-                            </a>
+                                </a>
+                            
                         </div>
                         <div class="product-content">
                             <h5 class="product-name">

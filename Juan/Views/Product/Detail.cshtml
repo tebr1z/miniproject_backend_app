@@ -175,7 +175,7 @@
                                         </div>
                                         <div class="tab-pane fade" id="tab_two">
                                             <table class="table table-bordered">
-                                                <tbody>
+                                                <tbody> 
                                                     <tr>
                                                         <td>color</td>
                                                         <td>black, blue, red</td>
@@ -254,10 +254,56 @@
                         </div>
                     </div>
                     <!-- product details reviews end -->
-                    <!-- featured product area start -->
+                    <section class="Related-product">
+                      <div class="row">
+        <div class="col-12">
+            <div class="product-carousel-4 mbn-50 slick-row-15 slick-arrow-style">
+                <!-- product single item start -->
+                                    @foreach (var selectedProduct in ViewBag.SelectedProducts as List<Juan.Models.Product>)
+                {
+
+                    <div class="product-item mb-50">
+                        <div class="product-thumb">
+
+                            <a asp-controller="product" asp-action="detail" asp-route-id="@selectedProduct.ProductId">
+
+                                                    <img src="~/assets/img/product/@selectedProduct.Img" alt="" />
+                                </a>
+                            
+                        </div>
+                        <div class="product-content">
+                            <h5 class="product-name">
+                                                    <a href="@selectedProduct.ProductId">@selectedProduct.ProductName</a>
+                            </h5>
+                            <div class="price-box">
+                                                    <span class="price-old"><del>@selectedProduct.OldPrice</del></span>
+                                                    <span class="price-regular">@selectedProduct.Price</span>
+                            </div>
+                            <div class="product-action-link">
+                                <a href="#" data-toggle="tooltip" title="Wishlist">
+                                    <i class="ion-android-favorite-outline"></i>
+                                </a>
+                                <a href="#" data-toggle="tooltip" title="Add To Cart">
+                                    <i class="ion-bag"></i>
+                                </a>
+                                                    <a href="@Url.Action("ProductModal", "product", new { id = selectedProduct.ProductId })" class="productModal" data-toggle="modal" data-target="#quick_view">
+
+                                                        <span data-toggle="tooltip" title="Quick View">
+                                        <i class="ion-ios-eye-outline"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product single item start -->
+                }
 
 
+            </div>
+        </div>
+    </div>
                     <!-- featured product area end -->
+                    <</section>
                 </div>
             </div>
         </div>
