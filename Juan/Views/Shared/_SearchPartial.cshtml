@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Product>
+
+<div class="list-group">
+    @foreach (var product in Model)
+    {
+        <a asp-controller="product" asp-action="detail" asp-route-id="@product.ProductId">
+        <div class="list-group-item">
+            <div class="row">
+                <div class="col-3">
+                    <img src="~/assets/img/product/@product.Img" alt="@product.ProductName" class="img-fluid img-thumbnail" style="width: 100px; height: 100px;" />
+                </div>
+                <div class="col-9">
+                    <h5 class="mb-1">@product.ProductName</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Colors:</h6>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                @foreach (var color in product.ProductColors)
+                                {
+                                    <li class="badge badge-primary mr-1 mb-1">@color.Color.ColorName</li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h6>Sizes:</h6>
+                            <ul class="list-unstyled d-flex flex-wrap">
+                                @foreach (var size in product.ProductSizes)
+                                {
+                                    <li class="badge badge-secondary mr-1 mb-1">@size.Size.SizeName</li>
+                                }
+                            </ul>
+                        </div>
+
+                            <div class="col-6">
+                                <h6>Price:</h6>
+                                <ul class="list-unstyled d-flex flex-wrap">
+                                  
+                                        <li class="badge badge-secondary mr-1 mb-1">
+                                        <span class="price-regular text-success">@product.Price</span>
+
+                                        <span class="price-old text-danger"><del>@product.OldPrice</del></span>
+
+                                        </li>
+                                   
+
+                                    
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    }
+</div>
