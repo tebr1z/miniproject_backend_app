@@ -1,4 +1,8 @@
 ﻿
+@inject LayoutService layoutService
+@{
+    var settings =layoutService.GetSettings();
+}
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 <!-- Mirrored from demo.hasthemes.com/juan-preview-v1/juan/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Mar 2021 22:36:22 GMT -->
@@ -86,7 +90,7 @@
                         <div class="col-lg-2">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="~/assets/img/logo/logo.png" alt="" />
+                                    <img src="~/assets/img/logo/@settings.FirstOrDefault(s=>s.Key=="Logo").Value" alt="" />
                                 </a>
                             </div>
                         </div>
@@ -349,20 +353,19 @@
                     <!-- footer widget item start -->
                     <div class="col-xl-5 col-lg-3 col-md-6">
                         <div class="widget-item mt-40">
-                            <h5 class="widget-title">My Account</h5>
+                            <h5 class="widget-title">@settings.FirstOrDefault(s => s.Key == "MyAccount").Value</h5>
                             <div class="widget-body">
                                 <ul class="location-wrap">
                                     <li>
-                                        <i class="ion-ios-location-outline"></i>184 Main Rd E, St
-                                        Albans VIC 3021, Australia
+                                        <i class="ion-ios-location-outline"></i>@settings.FirstOrDefault(s => s.Key == "Address").Value
                                     </li>
                                     <li>
                                         <i class="ion-ios-email-outline"></i>Mail Us:
-                                        <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a>
+                                        <a href="mailto:@settings.FirstOrDefault(s=>s.Key=="Mail").Value">@settings.FirstOrDefault(s => s.Key == "Mail").Value</a>
                                     </li>
                                     <li>
                                         <i class="ion-ios-telephone-outline"></i>Phone:
-                                        <a href="%2b0025425456554">+ 00 254 254565</a>
+                                        <a href="tel:@settings.FirstOrDefault(s => s.Key == "Phone").Value">@settings.FirstOrDefault(s => s.Key == "Phone").Value</a>
                                     </li>
                                 </ul>
                             </div>

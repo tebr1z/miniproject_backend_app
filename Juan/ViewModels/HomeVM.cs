@@ -12,6 +12,7 @@ namespace Juan.ViewModels
         public IEnumerable<Setting> Settings { get; set; }
         public IEnumerable<Color> Colors { get; set; }
         public IEnumerable<Size> Sizes { get; set; }
+        public IEnumerable<Product> LatestProducts { get; set; }
 
 
     }

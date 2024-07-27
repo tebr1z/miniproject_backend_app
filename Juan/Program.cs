@@ -1,4 +1,5 @@
 using Juan.Data;
+using Juan.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace Juan
@@ -15,6 +16,7 @@ namespace Juan
             {
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
+            builder.Services.AddScoped<LayoutService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

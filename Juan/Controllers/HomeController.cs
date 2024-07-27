@@ -37,7 +37,16 @@ namespace Juan.Controllers
                                              .ToListAsync(),
 
                                              Settings = await _context.Settings
-                                             .ToListAsync()
+                                             .ToListAsync(),
+
+                LatestProducts = await _context.Products
+                                        .Where(p => !p.IsDelete)
+                                        .Include(p => p.ProductImages) 
+                                        .OrderByDescending(p => p.CreatedDate)
+                                        .Take(4)
+                                        .ToListAsync()
+
+
             };
 
             return View(homeVM);

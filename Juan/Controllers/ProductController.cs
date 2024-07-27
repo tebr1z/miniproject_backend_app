@@ -1,5 +1,6 @@
 ﻿using Juan.Data;
 using Juan.Models;
+using Juan.Services;
 using Juan.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -17,7 +18,7 @@ namespace Juan.Controllers
         }
 
         public IActionResult Index()
-        { 
+        {
             return View();
         }
         public async Task <IActionResult> ProductModal(int?Id)
