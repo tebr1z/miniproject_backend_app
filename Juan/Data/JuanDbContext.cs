@@ -17,6 +17,8 @@ namespace Juan.Data
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<Banner> Banners { get; set; }
 
+        public DbSet<Color> Colors { get; set; }
+        public DbSet<Size> Sizes { get; set; }
         public JuanDbContext(DbContextOptions options) : base(options)
         {
         }

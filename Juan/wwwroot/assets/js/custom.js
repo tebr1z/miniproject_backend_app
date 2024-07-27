@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
 	//Search
 	$(document).on("keyup", "#searchInput", function () {
-		let searchValue = $(this).val();
+		let searchValue = $(this).val().trim();
 		if (searchValue.trim() === "") {
 			$("#searchResults").html("");
 			return;

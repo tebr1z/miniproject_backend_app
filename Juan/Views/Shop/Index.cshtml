@@ -1,0 +1,154 @@
+﻿@model Juan.ViewModels.ShopViewModel
+@{
+    ViewData["Title"] = "Shop - Index";
+}
+
+<div class="shop-main-wrapper section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 order-2 order-lg-1">
+                <div class="sidebar-wrapper">
+                    <div class="sidebar-single">
+                        <div class="sidebar-title">
+                            <h3>Categories</h3>
+                        </div>
+                        <div class="sidebar-body">
+                            <ul class="color-list">
+                                @foreach (var category in Model.Categories)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("Index", new { categoryIds = new int[] { category.CategoryId } })">
+                                            @category.CategoryName
+                                            <span>(@Model.Products.Count(p => p.ProductCategories.Any(pc => pc.CategoryId == category.CategoryId)))</span>
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-single">
+                        <div class="sidebar-title">
+                            <h3>Color</h3>
+                        </div>
+                        <div class="sidebar-body">
+                            <ul class="color-list">
+                                @foreach (var color in Model.Colors)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("Index", new { colorIds = new int[] { color.ColorId } })">
+                                            @color.ColorName
+                                            <span>(@Model.Products.Count(p => p.ProductColors.Any(pc => pc.ColorId == color.ColorId)))</span>
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-single">
+                        <div class="sidebar-title">
+                            <h3>Size</h3>
+                        </div>
+                        <div class="sidebar-body">
+                            <ul class="size-list">
+                                @foreach (var size in Model.Sizes)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("Index", new { sizeIds = new int[] { size.SizeId } })">
+                                            @size.SizeName
+                                            <span>(@Model.Products.Count(p => p.ProductSizes.Any(ps => ps.SizeId == size.SizeId)))</span>
+                                        </a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9 order-1 order-lg-2">
+                <div class="shop-product-wrapper">
+                    <div class="shop-top-bar">
+                       
+                    </div>
+                    <div class="shop-product-wrap grid-view row mbn-50">
+                        @foreach (var product in Model.Products)
+                        {
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="product-item mb-53">
+                                    <div class="product-thumb">
+                                        <a href="@Url.Action("Detail", "Product", new { Id = product.ProductId })">
+                                            <img src="~/assets/img/product/@product.Img" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="product-content">
+                                        <h5 class="product-name">
+                                            <a href="@Url.Action("Detail", "Product", new { Id = product.ProductId })">@product.ProductName</a>
+                                        </h5>
+                                        <div class="price-box">
+                                            <span class="price-regular">@product.Price</span>
+                                            @if (product.OldPrice.HasValue)
+                                            {
+                                                <span class="price-old"><del>@product.OldPrice</del></span>
+                                            }
+                                        </div>
+                                        <div class="product-action-link">
+                                            <a href="#" data-toggle="tooltip" title="Wishlist"><i class="ion-android-favorite-outline"></i></a>
+                                            <a href="#" data-toggle="tooltip" title="Add To Cart"><i class="ion-bag"></i></a>
+                                            <a href="#" data-toggle="modal" data-target="#quick_view">
+                                                <span data-toggle="tooltip" title="Quick View"><i class="ion-ios-eye-outline"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="paginatoin-area text-center mt-45">
+                        <ul class="pagination-box">
+                            @if (Model.CurrentPage > 1)
+                            {
+                                <li><a class="Previous" href="@Url.Action("Index", new { page = Model.CurrentPage - 1 })"><i class="ion-ios-arrow-left"></i></a></li>
+                            }
+
+                            @{
+                                int startPage = Model.CurrentPage - 2;
+                                int endPage = Model.CurrentPage + 2;
+
+                                if (startPage < 1)
+                                {
+                                    endPage += (1 - startPage);
+                                    startPage = 1;
+                                }
+                                if (endPage > Model.TotalPages)
+                                {
+                                    startPage -= (endPage - Model.TotalPages);
+                                    endPage = Model.TotalPages;
+                                }
+
+                                if (startPage < 1)
+                                {
+                                    startPage = 1;
+                                }
+                            }
+
+                            @for (int i = startPage; i <= endPage; i++)
+                            {
+                                <li class="@(i == Model.CurrentPage ? "active" : "")">
+                                    <a href="@Url.Action("Index", new { page = i })">@i</a>
+                                </li>
+                            }
+
+                            @if (Model.CurrentPage < Model.TotalPages)
+                            {
+                                <li><a class="Next" href="@Url.Action("Index", new { page = Model.CurrentPage + 1 })"><i class="ion-ios-arrow-right"></i></a></li>
+                            }
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
