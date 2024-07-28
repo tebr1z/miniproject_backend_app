@@ -135,3 +135,4 @@ C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\runtimes\win\lib\net
 C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Windows 11\source\repos\Juan\Juan\obj\Debug\net8.0\Juan.csproj.Up2Date
+C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\Newtonsoft.Json.dll

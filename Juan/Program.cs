@@ -1,6 +1,7 @@
 using Juan.Data;
 using Juan.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace Juan
 {
@@ -17,6 +18,11 @@ namespace Juan
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
             builder.Services.AddScoped<LayoutService>();
+            builder.Services.AddSession(Options =>
+            { 
+             Options.IdleTimeout=TimeSpan.FromMinutes(10);
+            });
+            builder.Services.AddHttpContextAccessor();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -24,6 +30,7 @@ namespace Juan
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            app.UseSession();
             app.UseStaticFiles();
 
             app.UseRouting();

@@ -1,0 +1,92 @@
+﻿@model IEnumerable<BasketVM>
+
+<div class="offcanvas-overlay">
+  
+</div>
+<div class="minicart-inner-content">
+    <div class="minicart-close">
+        <i class="ion-android-close"></i>
+    </div>
+    <div class="minicart-content-box">
+        <div class="minicart-item-wrapper">
+            <ul>
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var item in Model)
+                    {
+                        <li class="minicart-item">
+                            <div class="minicart-thumb">
+                                <a href="@Url.Action("Detail", "Product", new { id = item.Id })">
+                                    <img src="~/assets/img/product/@item.Image" alt="product" />
+                                </a>
+                            </div>
+                            <div class="minicart-content">
+                                <h3 class="product-name">
+                                    <a href="@Url.Action("Detail", "Product", new { id = item.Id })">@item.Name</a>
+                                </h3>
+                                <p>
+                                    <span class="cart-quantity">@item.Count <strong>&times;</strong></span>
+                                    <span class="cart-price">$@item.Price</span>
+                                </p>
+                                @if (item.OldPrice.HasValue)
+                                {
+                                    <p class="product-discount-info">
+                                        <span class="discount-amount">Discount: $@(item.OldPrice.Value - item.Price)</span>
+                                    </p>
+                                }
+                            </div>
+
+                            <button class="minicart-remove" data-id="@item.Id">
+                                <i class="ion-android-close"></i>
+                            </button>
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
+
+        <div class="minicart-pricing-box">
+            <ul>
+                @if (Model != null && Model.Any())
+                {
+                    var subtotal = Model.Sum(b => b.Price * b.Count);
+                    var totalOldPrice = Model.Where(b => b.OldPrice.HasValue).Sum(b => b.OldPrice.Value * b.Count);
+                    var ecoTax = 2.00m;
+                    var vat = 0.20m;
+                    var vatAmount = subtotal * vat;
+                    var total = subtotal + ecoTax + vatAmount;
+                    var totalDiscount = totalOldPrice - subtotal;
+
+                    <li>
+                        <span>Sub-total</span>
+                        <span><strong>$@subtotal</strong></span>
+                    </li>
+                    <li>
+                        <span>Eco Tax (-2.00)</span>
+                        <span><strong>$@ecoTax</strong></span>
+                    </li>
+                    <li>
+                        <span>VAT (20%)</span>
+                        <span><strong>$@vatAmount</strong></span>
+                    </li>
+                    <li class="total">
+                        <span>Total</span>
+                        <span><strong>$@total</strong></span>
+                    </li>
+                    @if (totalDiscount > 0)
+                    {
+                        <li class="total-discount">
+                            <span>Total Discount</span>
+                            <span><strong>$@totalDiscount</strong></span>
+                        </li>
+                    }
+                }
+            </ul>
+        </div>
+
+        <div class="minicart-button">
+            <a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart"></i> View Cart</a>
+            <a href="@Url.Action("Checkout", "Cart")"><i class="fa fa-share"></i> Checkout</a>
+        </div>
+    </div>
+</div>

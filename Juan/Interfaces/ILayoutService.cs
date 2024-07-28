@@ -1,4 +1,5 @@
 ﻿using Juan.Models;
+using Juan.ViewModels;
 
 namespace Juan.Interfaces
 {
@@ -6,5 +7,7 @@ namespace Juan.Interfaces
     {
         IDictionary<string, string> GetSettings();
         Task<IEnumerable<Category>> GetCategoriesAsync();
+        IEnumerable<BasketVM> GetBasket();
+
     }
 }
