@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Juan\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
               "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
               "RelativeToolTip": "Juan\\Areas\\Manage\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "ViewState": "AQIAAH8DAAAAAAAAAADwv4kDAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-29T20:30:01.732Z",
               "IsPinned": true,
@@ -49,6 +49,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
@@ -60,8 +64,7 @@
               "RelativeToolTip": "Juan\\Views\\Product\\Detail.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQBAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T23:46:54.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T23:46:54.836Z"
             },
             {
               "$type": "Document",
@@ -73,8 +76,7 @@
               "RelativeToolTip": "Juan\\Areas\\Manage\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAgwCUAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T23:39:45.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T23:39:45.81Z"
             },
             {
               "$type": "Document",
@@ -86,8 +88,7 @@
               "RelativeToolTip": "Juan\\Areas\\Manage\\Views\\Category\\Create.cshtml",
               "ViewState": "AQIAACsAAAAAAAAAAADwvz4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T23:12:07.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T23:12:07.053Z"
             },
             {
               "$type": "Document",
@@ -99,12 +100,7 @@
               "RelativeToolTip": "Juan\\Areas\\Manage\\Views\\Category\\Index.cshtml",
               "ViewState": "AQIAAEMAAAAAAAAAAAAcwFsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T22:13:38.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "WhenOpened": "2024-07-29T22:13:38.071Z"
             }
           ]
         }
