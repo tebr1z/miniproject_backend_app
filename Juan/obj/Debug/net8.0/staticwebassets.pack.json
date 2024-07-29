@@ -5,6 +5,854 @@
       "PackagePath": "staticwebassets\\Juan.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\admin\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\alert\\alert.png",
+      "PackagePath": "staticwebassets\\admin\\images\\alert\\alert.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\alert\\alert2.png",
+      "PackagePath": "staticwebassets\\admin\\images\\alert\\alert2.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\alert\\alert3.png",
+      "PackagePath": "staticwebassets\\admin\\images\\alert\\alert3.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\alert\\alert4.png",
+      "PackagePath": "staticwebassets\\admin\\images\\alert\\alert4.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\alert\\alert5.png",
+      "PackagePath": "staticwebassets\\admin\\images\\alert\\alert5.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\alert\\alert6.png",
+      "PackagePath": "staticwebassets\\admin\\images\\alert\\alert6.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\alert\\alert7.png",
+      "PackagePath": "staticwebassets\\admin\\images\\alert\\alert7.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\alert\\model.png",
+      "PackagePath": "staticwebassets\\admin\\images\\alert\\model.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\blog.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\blog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\bronze.png",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\bronze.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\errorimg.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\errorimg.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\gold.png",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\gold.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\img1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\kanban-img-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\kanban-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\kanban-img-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\kanban-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\login-side.png",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\login-side.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\maintenance.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\maintenance.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\mega-dd-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\mega-dd-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\my-card.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\my-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\profile-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\profile-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\profilebg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\profilebg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\silver.png",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\silver.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\track-bg.png",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\track-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\website-under-construction.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\website-under-construction.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\welcome-bg.png",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\welcome-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\backgrounds\\welcome-bg2.png",
+      "PackagePath": "staticwebassets\\admin\\images\\backgrounds\\welcome-bg2.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\blog\\blog-img8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\blog\\blog-img8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\browser\\chrome-logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\chrome-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\browser\\edge-logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\edge-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\browser\\firefox-logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\firefox-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\browser\\internet-logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\internet-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\browser\\netscape-logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\netscape-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\browser\\opera-logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\opera-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\browser\\safari-logo.png",
+      "PackagePath": "staticwebassets\\admin\\images\\browser\\safari-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\chat\\icon-adobe.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\chat\\icon-adobe.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\chat\\icon-chrome.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\chat\\icon-chrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\chat\\icon-figma.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\chat\\icon-figma.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\chat\\icon-javascript.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\chat\\icon-javascript.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\chat\\icon-zip-folder.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\chat\\icon-zip-folder.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\flag\\icon-flag-cn.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\flag\\icon-flag-cn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\flag\\icon-flag-en.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\flag\\icon-flag-en.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\flag\\icon-flag-fr.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\flag\\icon-flag-fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\flag\\icon-flag-sa.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\flag\\icon-flag-sa.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\logos\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\logos\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\logos\\logo-icon.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logos\\logo-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\logos\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logos\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\dash-prd-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\dash-prd-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\dash-prd-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\dash-prd-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\dash-prd-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\dash-prd-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\dash-prd-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\dash-prd-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\empty-shopping-bag.gif",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\empty-shopping-bag.gif"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\payment-complete.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\payment-complete.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\payment.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\payment.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\product-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\product-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\product-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\product-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s10.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s12.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\products\\s9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\products\\s9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-10.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-12.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\profile\\user-9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\profile\\user-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\facebook-icon.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\facebook-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\google-icon.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\google-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-database.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-database.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-mail.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-mail.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-map-pin.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-map-pin.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-master-card-2.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-master-card-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-master-card.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-master-card.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-office-bag.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-office-bag.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-paypal.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-paypal.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-phone.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-pie.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-pie.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\icon-screen-share.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\icon-screen-share.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\mastercard.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\mastercard.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\images\\svgs\\paypal.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\svgs\\paypal.svg"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apex-chart\\apex.area.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apex-chart\\apex.area.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apex-chart\\apex.bar.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apex-chart\\apex.bar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apex-chart\\apex.line.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apex-chart\\apex.line.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apex-chart\\apex.pie.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apex-chart\\apex.pie.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apex-chart\\apex.radar.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apex-chart\\apex.radar.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apex-chart\\apex.radial.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apex-chart\\apex.radial.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\calendar-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\calendar-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\chat.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\contact.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\ecommerce.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\ecommerce.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\edit-product.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\edit-product.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\invoice.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\invoice.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\jquery.PrintArea.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\jquery.PrintArea.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\kanban.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\kanban.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\notes.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\notes.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\apps\\productDetail.js",
+      "PackagePath": "staticwebassets\\admin\\js\\apps\\productDetail.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\dashboards\\dashboard1.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboards\\dashboard1.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\dashboards\\dashboard2.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboards\\dashboard2.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\dashboards\\dashboard3.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboards\\dashboard3.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\datatable\\datatable-advanced.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datatable\\datatable-advanced.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\datatable\\datatable-api.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datatable\\datatable-api.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\datatable\\datatable-basic.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\datatable\\datatable-basic.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\extra-libs\\jqbootstrapvalidation\\validation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\extra-libs\\jqbootstrapvalidation\\validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\extra-libs\\jquery-sessiontimeout\\jquery.sessionTimeout.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\extra-libs\\jquery-sessiontimeout\\jquery.sessionTimeout.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\extra-libs\\jquery-sessiontimeout\\session-timeout-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\extra-libs\\jquery-sessiontimeout\\session-timeout-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\extra-libs\\jvectormap\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\admin\\js\\extra-libs\\jvectormap\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\extra-libs\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\extra-libs\\moment\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\custom-validation-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\custom-validation-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\datepicker-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\datepicker-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\daterangepicker-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\daterangepicker-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\draggable-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\draggable-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\form-wizard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\form-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\mask.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\mask.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\material-datepicker-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\material-datepicker-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\quill-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\quill-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\repeater-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\repeater-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\select2.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\select2.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\sweet-alert.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\sweet-alert.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\tinymce-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\tinymce-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\forms\\typeahead\\typeahead.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\forms\\typeahead\\typeahead.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\animation-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\animation-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\block-ui.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\block-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\bootstrap-treeview-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\bootstrap-treeview-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\bootstrap-validation-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\bootstrap-validation-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\colorpicker-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\colorpicker-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\meg.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\meg.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\nestable-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\nestable-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\nouislider-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\nouislider-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\rating-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\rating-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\plugins\\toastr-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\plugins\\toastr-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\theme\\app.init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\theme\\app.init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\theme\\app.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\theme\\app.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\theme\\sidebarmenu.js",
+      "PackagePath": "staticwebassets\\admin\\js\\theme\\sidebarmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\theme\\theme.js",
+      "PackagePath": "staticwebassets\\admin\\js\\theme\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\vendor.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\vendor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\widget\\card-custom.js",
+      "PackagePath": "staticwebassets\\admin\\js\\widget\\card-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\widget\\ui-card-init.js",
+      "PackagePath": "staticwebassets\\admin\\js\\widget\\ui-card-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\js\\widget\\widgets-charts.js",
+      "PackagePath": "staticwebassets\\admin\\js\\widget\\widgets-charts.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\@claviska\\jquery-minicolors\\jquery.minicolors.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\@claviska\\jquery-minicolors\\jquery.minicolors.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\@claviska\\jquery-minicolors\\jquery.minicolors.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\@claviska\\jquery-minicolors\\jquery.minicolors.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\apexcharts\\dist\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\apexcharts\\dist\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\block-ui\\jquery.blockUI.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\block-ui\\jquery.blockUI.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\bootstrap-datepicker\\dist\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\bootstrap-datepicker\\dist\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\bootstrap-switch\\dist\\css\\bootstrap3\\bootstrap-switch.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\bootstrap-switch\\dist\\css\\bootstrap3\\bootstrap-switch.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\bootstrap-tree\\dist\\bootstrap-treeview.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\bootstrap-tree\\dist\\bootstrap-treeview.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\datatables.net-bs5\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\datatables.net\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\datatables.net\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\dragula\\dist\\dragula.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\dragula\\dist\\dragula.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\dragula\\dist\\dragula.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\dragula\\dist\\dragula.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\dropzone\\dist\\min\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\dropzone\\dist\\min\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\dropzone\\dist\\min\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\dropzone\\dist\\min\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\fullcalendar\\index.global.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\fullcalendar\\index.global.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\inputmask\\dist\\jquery.inputmask.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\inputmask\\dist\\jquery.inputmask.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery-asColorPicker\\dist\\jquery-asColorPicker.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery-asColorPicker\\dist\\jquery-asColorPicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery-asColor\\dist\\jquery-asColor.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery-asColor\\dist\\jquery-asColor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery-asGradient\\dist\\jquery-asGradient.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery-asGradient\\dist\\jquery-asGradient.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery-raty-js\\lib\\jquery.raty.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery-raty-js\\lib\\jquery.raty.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery-raty-js\\lib\\jquery.raty.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery-raty-js\\lib\\jquery.raty.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery-steps\\build\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery-steps\\build\\jquery.steps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery-ui\\dist\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery-ui\\dist\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jquery.repeater\\jquery.repeater.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jquery.repeater\\jquery.repeater.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\jvectormap\\jquery-jvectormap.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\jvectormap\\jquery-jvectormap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\magnific-popup\\dist\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\magnific-popup\\dist\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\magnific-popup\\dist\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\magnific-popup\\dist\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\nouislider-orxe\\distribute\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\nouislider-orxe\\distribute\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\nouislider-orxe\\distribute\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\nouislider-orxe\\distribute\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\owl.carousel\\dist\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\owl.carousel\\dist\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\owl.carousel\\dist\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\owl.carousel\\dist\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\prismjs\\prism.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\prismjs\\prism.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\prismjs\\themes\\prism-okaidia.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\prismjs\\themes\\prism-okaidia.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\quill\\dist\\quill.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\quill\\dist\\quill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\quill\\dist\\quill.snow.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\quill\\dist\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\select2\\dist\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\select2\\dist\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\select2\\dist\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\select2\\dist\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\select2\\dist\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\select2\\dist\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\simplebar\\dist\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\simplebar\\dist\\simplebar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\admin\\libs\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\sweetalert2\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\sweetalert2\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\typeahead.js\\dist\\bloodhound.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\typeahead.js\\dist\\bloodhound.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\typeahead.js\\dist\\typeahead.jquery.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\typeahead.js\\dist\\typeahead.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\admin\\libs\\wnumb\\wNumb.min.js",
+      "PackagePath": "staticwebassets\\admin\\libs\\wnumb\\wNumb.min.js"
+    },
+    {
       "Id": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\css\\Costum.css",
       "PackagePath": "staticwebassets\\assets\\css\\Costum.css"
     },
