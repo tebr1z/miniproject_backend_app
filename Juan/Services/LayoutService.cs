@@ -43,6 +43,7 @@ namespace Juan.Services
 
         }
 
+
         public async Task<IEnumerable<Category>> GetCategoriesAsync()
         {
             var categories =await _context.Categories

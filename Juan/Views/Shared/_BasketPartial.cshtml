@@ -39,6 +39,7 @@
                             <button class="minicart-remove" data-id="@item.Id">
                                 <i class="ion-android-close"></i>
                             </button>
+
                         </li>
                     }
                 }
@@ -85,8 +86,8 @@
         </div>
 
         <div class="minicart-button">
-            <a href="@Url.Action("Index", "Cart")"><i class="fa fa-shopping-cart"></i> View Cart</a>
-            <a href="@Url.Action("Checkout", "Cart")"><i class="fa fa-share"></i> Checkout</a>
+            <a asp-controller="basket" asp-action="getbasket"><i class="fa fa-shopping-cart"></i> View Cart</a>
+            <a asp-controller="basket" asp-action="getbasket"><i class="fa fa-share"></i> Checkout</a>
         </div>
     </div>
 </div>

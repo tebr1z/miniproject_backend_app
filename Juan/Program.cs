@@ -12,17 +12,7 @@ namespace Juan
             var builder = WebApplication.CreateBuilder(args);
             var config=builder.Configuration;
             // Add services to the container.
-            builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<JuanDbContext>(options =>
-            {
-                options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
-            });
-            builder.Services.AddScoped<LayoutService>();
-            builder.Services.AddSession(Options =>
-            { 
-             Options.IdleTimeout=TimeSpan.FromMinutes(10);
-            });
-            builder.Services.AddHttpContextAccessor();
+            builder.Services.Register(config);
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

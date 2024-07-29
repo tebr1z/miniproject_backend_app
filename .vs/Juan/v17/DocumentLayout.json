@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\source\\repos\\Juan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\shared\\_selectedproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\shared\\_selectedproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\wwwroot\\assets\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\wwwroot\\assets\\js\\custom.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\shared\\_basketpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\shared\\_basketpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\interfaces\\ilayoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\interfaces\\ilayoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\services\\layoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\services\\layoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\views\\shared\\_selectedproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\views\\shared\\_selectedproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,101 +38,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "Juan\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "Juan\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T21:56:24.538Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "custom.js",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\js\\custom.js",
-              "RelativeDocumentMoniker": "Juan\\wwwroot\\assets\\js\\custom.js",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\js\\custom.js",
-              "RelativeToolTip": "Juan\\wwwroot\\assets\\js\\custom.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-28T21:23:54.639Z",
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "Juan\\Views\\Product\\Detail.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAADgv1YAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T15:17:13.71Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_BasketPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_BasketPartial.cshtml",
-              "RelativeDocumentMoniker": "Juan\\Views\\Shared\\_BasketPartial.cshtml",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_BasketPartial.cshtml",
-              "RelativeToolTip": "Juan\\Views\\Shared\\_BasketPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Juan\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKkAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T21:15:07.108Z",
+              "WhenOpened": "2024-07-29T15:09:16.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Juan\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Juan\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAOEBAAAAAAAAAAAqwOgBAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "_SelectedProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_SelectedProduct.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Views\\Shared\\_SelectedProduct.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_SelectedProduct.cshtml",
+              "RelativeToolTip": "Juan\\Views\\Shared\\_SelectedProduct.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAEAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T20:34:07.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ILayoutService.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Interfaces\\ILayoutService.cs",
-              "RelativeDocumentMoniker": "Juan\\Interfaces\\ILayoutService.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Interfaces\\ILayoutService.cs",
-              "RelativeToolTip": "Juan\\Interfaces\\ILayoutService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:32:14.82Z",
+              "WhenOpened": "2024-07-29T15:06:05.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Program.cs",
-              "RelativeDocumentMoniker": "Juan\\Program.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Program.cs",
-              "RelativeToolTip": "Juan\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:11:50.675Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Juan\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAANUBAAAAAAAAAADgv+cBAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-29T13:24:32.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "LayoutService.cs",
               "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Services\\LayoutService.cs",
               "RelativeDocumentMoniker": "Juan\\Services\\LayoutService.cs",
               "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Services\\LayoutService.cs",
               "RelativeToolTip": "Juan\\Services\\LayoutService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAYwA8AAAA/AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T20:07:41.231Z",
+              "WhenOpened": "2024-07-29T13:15:07.069Z",
               "EditorCaption": ""
             },
             {
@@ -151,23 +113,27 @@
               "RelativeDocumentMoniker": "Juan\\Controllers\\BasketController.cs",
               "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Controllers\\BasketController.cs",
               "RelativeToolTip": "Juan\\Controllers\\BasketController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAgwDwAAAA3AAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAwwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T18:25:04.022Z",
+              "WhenOpened": "2024-07-29T13:14:18.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_SelectedProduct.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_SelectedProduct.cshtml",
-              "RelativeDocumentMoniker": "Juan\\Views\\Shared\\_SelectedProduct.cshtml",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Views\\Shared\\_SelectedProduct.cshtml",
-              "RelativeToolTip": "Juan\\Views\\Shared\\_SelectedProduct.cshtml",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAADQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-28T17:52:42.859Z",
+              "DocumentIndex": 2,
+              "Title": "custom.js",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\js\\custom.js",
+              "RelativeDocumentMoniker": "Juan\\wwwroot\\assets\\js\\custom.js",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\wwwroot\\assets\\js\\custom.js",
+              "RelativeToolTip": "Juan\\wwwroot\\assets\\js\\custom.js",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwEAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-29T13:04:40.906Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

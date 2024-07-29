@@ -91,7 +91,7 @@
                         <!-- start logo area -->
                         <div class="col-lg-2">
                             <div class="logo">
-                                <a href="index.html">
+                                <a asp-controller="home" asp-action="index">
                                     <img src="~/assets/img/logo/@settings.FirstOrDefault(s=>s.Key=="Logo").Value" alt="" />
                                 </a>
                             </div>
@@ -120,16 +120,16 @@
                                                         <a href="#">column 01</a>
                                                         <ul>
                                                             <li>
-                                                                <a href="shop.html">shop grid left sidebar</a>
+                                                                <a asp-controller="shop">shop grid left sidebar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-grid-right-sidebar.html">shop grid right sidebar</a>
+                                                                <a asp-controller="shop">shop grid right sidebar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-list-left-sidebar.html">shop list left sidebar</a>
+                                                                <a asp-controller="shop">shop list left sidebar</a>
                                                             </li>
                                                             <li>
-                                                                <a href="shop-list-right-sidebar.html">shop list right sidebar</a>
+                                                                <a asp-controller="shop">shop list right sidebar</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -298,7 +298,7 @@
                                         <li>
                                             <a href="#" class="minicart-btn">
                                                 <i class="ion-bag"></i>
-                                                <div class="notification">2</div>
+                                            
                                             </a>
                                         </li>
                                     </ul>
@@ -320,7 +320,7 @@
                     <div class="col-12">
                         <div class="mobile-main-header">
                             <div class="mobile-logo">
-                                <a href="index.html">
+                                <a asp-controller="home" asp-action="index">
                                     <img src="~/assets/img/logo/logo.png" alt="Brand Logo" />
                                 </a>
                             </div>
@@ -438,7 +438,7 @@
                     <div class="col-md-6 order-2 order-md-1">
                         <div class="copyright-text text-center text-md-left">
                             <p>
-                                Copyright 2019 <a href="index.html">Juan</a>. All Rights
+                                Copyright 2019 <a asp-controller="home" asp-action="index">Juan</a>. All Rights
                                 Reserved
                             </p>
                         </div>

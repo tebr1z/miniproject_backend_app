@@ -1,0 +1,125 @@
+﻿@using Juan.Services
+@inject LayoutService layoutService;
+
+@{
+    var basket = layoutService.GetBasket();
+}
+
+<main>
+    <!-- breadcrumb area start -->
+    <div class="breadcrumb-area bg-img" data-bg="assets/img/banner/breadcrumb-banner.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-wrap text-center">
+                        <nav aria-label="breadcrumb">
+                            <h1 class="breadcrumb-title">Cart</h1>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb area end -->
+    <!-- cart main wrapper start -->
+    <div class="cart-main-wrapper section-padding">
+        <div class="container">
+            <div class="section-bg-color">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Cart Table Area -->
+                        <div class="cart-table table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="pro-thumbnail">Thumbnail</th>
+                                        <th class="pro-title">Product</th>
+                                        <th class="pro-price">Price</th>
+                                        <th class="pro-quantity">Quantity</th>
+                                        <th class="pro-subtotal">Total</th>
+                                        <th class="pro-remove">Remove</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in basket)
+                                    {
+                                        <tr>
+                                            <td class="pro-thumbnail">
+                                                <a href="@Url.Action("Detail", "Product", new { id = item.Id })">
+                                                    <img class="img-fluid" src="~/assets/img/product/@item.Image" alt="Product" />
+                                                </a>
+                                            </td>
+                                            <td class="pro-title">
+                                                <a href="@Url.Action("Detail", "Product", new { id = item.Id })">@item.Name</a>
+                                            </td>
+                                            <td class="pro-price">
+                                                <span>@item.Price</span>
+                                            </td>
+                                            <td class="pro-quantity">
+                                                <div class="pro-qty">
+                                                    <input type="text" value="@item.Count" />
+                                                </div>
+                                            </td>
+                                            <td class="pro-subtotal">
+                                                <span>@(item.Price * item.Count)</span>
+                                            </td>
+                                            <td class="pro-remove">
+                                                <button class="btn btn-danger minicart-remove" data-id="@item.Id">
+                                                    <i class="fa fa-trash-o"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- Cart Update Option -->
+                        <div class="cart-update-option d-block d-md-flex justify-content-between">
+                            <div class="apply-coupon-wrapper">
+                                <form action="#" method="post" class="d-block d-md-flex">
+                                    <input type="text" placeholder="Enter Your Coupon Code" required />
+                                    <button class="btn">Apply Coupon</button>
+                                </form>
+                            </div>
+                            <div class="cart-update">
+                                <a href="#" class="btn">Update Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 ml-auto">
+                        <!-- Cart Calculation Area -->
+                        <div class="cart-calculator-wrapper">
+                            <div class="cart-calculate-items">
+                                <h3>Cart Totals</h3>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <tr>
+                                            <td>Sub Total</td>
+                                            <td>@basket.Sum(item => item.Price * item.Count)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shipping</td>
+                                            <td>$70</td>
+                                        </tr>
+                                        <tr class="total">
+                                            <td>Total</td>
+                                            <td class="total-amount">@basket.Sum(item => item.Price * item.Count) + 70</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <a href="checkout.html" class="btn d-block">Proceed Checkout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- cart main wrapper end -->
+</main>

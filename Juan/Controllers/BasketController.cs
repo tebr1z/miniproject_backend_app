@@ -58,14 +58,40 @@ namespace Juan.Controllers
 
             HttpContext.Response.Cookies.Append("basket", JsonConvert.SerializeObject(baskets));
 
+               var newCount = baskets.Sum(b => b.Count);
+   
+
             return PartialView("_BasketPartial",baskets);
         }
 
+
         public IActionResult GetBasket()
         {
-            var Result = HttpContext.Request.Cookies["basket"];
-            return Json(Result);
+         
+            return View();
         }
-      
+        [HttpPost]
+        public IActionResult RemoveFromBasket(int id)
+        {
+            var basketCookie = Request.Cookies["basket"];
+            if (string.IsNullOrEmpty(basketCookie))
+            {
+                return Json(new { success = false });
+            }
+
+            var basket = JsonConvert.DeserializeObject<List<BasketVM>>(basketCookie);
+            var itemToRemove = basket.FirstOrDefault(p => p.Id == id);
+            if (itemToRemove != null)
+            {
+                basket.Remove(itemToRemove);
+                Response.Cookies.Append("basket", JsonConvert.SerializeObject(basket));
+                return Json(new { success = true });
+            }
+
+            return Json(new { success = false });
+        }
+
+
+
     }
 }

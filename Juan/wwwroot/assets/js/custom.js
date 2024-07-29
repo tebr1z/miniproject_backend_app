@@ -6,11 +6,22 @@
 		var id = $(this).data("id");
 		axios.get("/basket/addbasket?id=" + id)
 			.then(function (datas) {
-				$(".offcanvas-overlay").html(datas.data);
+				$(".offcanvas-overlay","").html(datas.data);
 			});
 
 	});
 
+
+
+
+
+
+
+
+
+	function updateBasketCount(newCount) {
+		$('.notification').text(newCount);
+	}
 	//Search
 	$(document).on("keyup", "#searchInput", function () {
 		let searchValue = $(this).val().trim();
