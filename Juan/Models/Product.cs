@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Juan.Models
 {
@@ -32,5 +33,7 @@ namespace Juan.Models
         public DateTime? DeleteDate { get; set; }
         public bool IsDelete { get; set; }
         public bool IsSelected { get; set; }
+        [NotMapped]
+        public IFormFile ImageFile { get; set; }
     }
 }

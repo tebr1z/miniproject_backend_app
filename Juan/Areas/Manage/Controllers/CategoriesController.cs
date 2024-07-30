@@ -10,7 +10,7 @@ namespace Juan.Areas.Manage.Controllers
 {
     [Area("Manage")]
     public class CategoryController : Controller
-    {
+    { 
         private readonly JuanDbContext _context;
 
         public CategoryController(JuanDbContext context)
