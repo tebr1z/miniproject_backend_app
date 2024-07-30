@@ -42,6 +42,7 @@
                                     <th scope="col">Create Date</th>
                                     <th scope="col">Modify Date</th>
                                     <th scope="col">Number of Products</th>
+                                    <th scope="col">Is Deleted</th>
                                     <th scope="col">Actions</th>
                                 </tr>
                             </thead>
@@ -59,7 +60,10 @@
                                             <p class="mb-0">@category.ModifiedDate?.ToString("ddd, MMM dd yyyy")</p>
                                         </td>
                                         <td>
-                                            <p class="mb-0">@category.CategoryId</p>
+                                            <p class="mb-0">@category.ProductCategories.Count()</p>
+                                        </td>
+                                        <td>
+                                            <p class="mb-0">@category.IsDelete</p>
                                         </td>
                                         <td>
                                             <a class="fs-6 text-muted btn btn-outline-success" href="@Url.Action("Details", "Category", new { id = category.CategoryId})" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Details">
@@ -101,7 +105,35 @@
             cancelButtonText: 'Cancel'
         }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = url;
+                fetch(url, { method: 'POST' })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            Swal.fire({
+                                title: 'Deleted!',
+                                text: 'The category has been deleted.',
+                                icon: 'success',
+                                confirmButtonColor: '#3085d6'
+                            }).then(() => {
+                                location.reload();
+                            });
+                        } else {
+                            Swal.fire({
+                                title: 'Error',
+                                text: data.message,
+                                icon: 'error',
+                                confirmButtonColor: '#3085d6'
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        Swal.fire({
+                            title: 'Error',
+                            text: 'An unexpected error occurred. Please try again.',
+                            icon: 'error',
+                            confirmButtonColor: '#3085d6'
+                        });
+                    });
             }
         });
     }
