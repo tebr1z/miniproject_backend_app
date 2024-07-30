@@ -2,6 +2,9 @@
 using Juan.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Juan.Areas.Manage.Controllers
 {
@@ -17,13 +20,61 @@ namespace Juan.Areas.Manage.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var categories =await _context.Categories
-                .Include(c=>c.ProductCategories)
+            var categories = await _context.Categories
+                .Include(c => c.ProductCategories)
                 .AsNoTracking()
                 .ToListAsync();
             return View(categories);
         }
-        public async Task<IActionResult> Create() 
+
+        [HttpPost]
+        public async Task<IActionResult> Update([FromBody] UpdateCategoryRequest request)
+        {
+            if (request.CategoryId <= 0)
+            {
+                return Json(new { success = false, message = "Invalid CategoryId" });
+            }
+
+            var existingCategory = await _context.Categories.FindAsync(request.CategoryId);
+            if (existingCategory == null)
+            {
+                return Json(new { success = false, message = "Category not found" });
+            }
+
+            existingCategory.CategoryName = request.CategoryName;
+            existingCategory.IsDelete = request.IsDelete;
+            existingCategory.ModifiedDate = DateTime.Now;
+
+            _context.Categories.Update(existingCategory);
+            await _context.SaveChangesAsync();
+
+            return Json(new { success = true });
+        }
+
+        public class UpdateCategoryRequest
+        {
+            public int CategoryId { get; set; }
+            public string CategoryName { get; set; }
+            public bool IsDelete { get; set; }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null)
+            {
+                return Json(new { success = false, message = "Category not found" });
+            }
+
+            category.IsDelete = true;
+            _context.Categories.Update(category);
+            await _context.SaveChangesAsync();
+
+            return Json(new { success = true });
+        }
+
+        public async Task<IActionResult> Create()
         {
             ViewBag.Categories = await _context.Categories
                .Include(c => c.ProductCategories)
@@ -33,16 +84,10 @@ namespace Juan.Areas.Manage.Controllers
             return View();
         }
 
-
         [HttpPost]
-        [AutoValidateAntiforgeryToken]
-
-
-
-        [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Category category)
         {
-           
             category.CreatedDate = DateTime.Now;
 
             ViewBag.Categories = await _context.Categories
@@ -66,43 +111,5 @@ namespace Juan.Areas.Manage.Controllers
             }
             return Json(new { success = false, message = "Invalid model state" });
         }
-
-        [HttpPost]
-       
-
-        public async Task<IActionResult> Delete(int id)
-        {
-            var category = await _context.Categories.FindAsync(id);
-            if (category == null)
-            {
-                return Json(new { success = false, message = "Category not found" });
-            }
-
-            category.IsDelete = true;
-            _context.Categories.Update(category);
-            await _context.SaveChangesAsync();
-
-            return Json(new { success = true });
-        }
-
-
-        [HttpPost]
-        public async Task<IActionResult> Update(Category category)
-        {
-            var existingCategory = await _context.Categories.FindAsync(category.CategoryId);
-            if (existingCategory == null)
-            {
-                return Json(new { success = false, message = "Category not found" });
-            }
-
-            existingCategory.CategoryName = category.CategoryName;
-            existingCategory.ModifiedDate = DateTime.Now;
-
-            _context.Categories.Update(existingCategory);
-            await _context.SaveChangesAsync();
-
-            return Json(new { success = true });
-        }
-
     }
 }
