@@ -1,9 +1,10 @@
 ﻿using Juan.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Juan.Data
 {
-    public class JuanDbContext : DbContext
+    public class JuanDbContext : IdentityDbContext<AppUser>
     {
         public DbSet<Setting> Settings { get; set; }
 
@@ -24,6 +25,21 @@ namespace Juan.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<ProductCategory>()
+                .HasKey(pc => new { pc.ProductId, pc.CategoryId });
+
+            modelBuilder.Entity<ProductCategory>()
+                .HasOne(pc => pc.Product)
+                .WithMany(p => p.ProductCategories)
+                .HasForeignKey(pc => pc.ProductId);
+
+            modelBuilder.Entity<ProductCategory>()
+                .HasOne(pc => pc.Category)
+                .WithMany(c => c.ProductCategories)
+                .HasForeignKey(pc => pc.CategoryId);
+
             modelBuilder.Entity<ProductColor>()
                 .HasKey(pc => new { pc.ProductId, pc.ColorId });
 
@@ -49,13 +65,6 @@ namespace Juan.Data
                 .HasOne(ps => ps.Size)
                 .WithMany(s => s.ProductSizes)
                 .HasForeignKey(ps => ps.SizeId);
-
-            modelBuilder.Entity<ProductImage>()
-            .HasOne(pi => pi.Product)
-            .WithMany(p => p.ProductImages)
-            .HasForeignKey(pi => pi.ProductId);
-
-
         }
     }
 }

@@ -1,0 +1,49 @@
+﻿﻿
+@model IEnumerable<AppUser>
+<!-- Page Heading -->
+<h1 class="h3 mb-2 text-gray-800">Users Table</h1>
+
+<a class="btn btn-primary mt-4 mb-4" href="/manage/user/create">Create a user</a>
+
+<!-- DataTales Example -->
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Users</h6>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Full Name</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                        <th>Settings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (AppUser user in Model)
+                    {
+                        <tr>
+                            <td>@user.Id</td>
+                            <td>@user.Fullname</td>
+                            <td>@user.Email</td>
+                            <td class=@(user.IsBlocked ? "text-danger" : "text-success")>@(user.IsBlocked ? "blocked" : "active")</td>
+                            <td>
+                                <a class="btn btn-secondary" href="/manage/user/update/@user.Id">update</a>
+                                <a class="btn btn-secondary" href="/manage/user/detail/@user.Id">detail</a>
+                                @if (User.Identity.Name != user.UserName)
+                                {
+                                    <a class="btn btn-secondary" href="/manage/user/changeroles/@user.Id">change roles</a>
+                                    <a class="btn btn-secondary" href="/manage/user/delete/@user.Id">delete</a>
+                                    <a class="btn btn-secondary" href="/manage/user/changestatus/@user.Id">@(user.IsBlocked ? "unblock" : "block")</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

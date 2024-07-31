@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 11\\source\\repos\\Juan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\areas\\manage\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\areas\\manage\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\areas\\manage\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\areas\\manage\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\areas\\manage\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\areas\\manage\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\areas\\manage\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\areas\\manage\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\areas\\manage\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|c:\\users\\windows 11\\source\\repos\\juan\\juan\\areas\\manage\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{669321AD-DB91-4E10-9FC0-E00C8FE13F5D}|Juan\\Juan.csproj|solutionrelative:juan\\areas\\manage\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +34,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "Juan\\Areas\\Manage\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "Juan\\Areas\\Manage\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AQIAAOkCAAAAAAAAAAAAAMQAAABYAAAA",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Areas\\Manage\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Juan\\Areas\\Manage\\Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T20:17:36.597Z",
+              "WhenOpened": "2024-07-31T12:55:37.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Juan\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Juan\\Areas\\Manage\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAswHYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:49:14.294Z",
               "EditorCaption": ""
             },
             {
@@ -53,36 +65,22 @@
               "RelativeDocumentMoniker": "Juan\\Areas\\Manage\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "Juan\\Areas\\Manage\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAANoAAAAAAAAAAAAAAEIAAABRAAAA",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAAOMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T19:31:46.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Juan\\Areas\\Manage\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Juan\\Areas\\Manage\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T16:08:30.721Z",
+              "WhenOpened": "2024-07-31T12:48:47.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Juan\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Juan\\Areas\\Manage\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T16:03:30.293Z",
-              "EditorCaption": ""
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Juan\\Areas\\Manage\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\Juan\\Juan\\Areas\\Manage\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Juan\\Areas\\Manage\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T11:39:08.499Z"
             }
           ]
         }

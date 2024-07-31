@@ -251,3 +251,4 @@ C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\runtimes\win\lib\net
 C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Windows 11\source\repos\Juan\Juan\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

@@ -1,5 +1,7 @@
 ﻿using Juan.Data;
+using Juan.Models;
 using Juan.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Juan
@@ -22,11 +24,19 @@ namespace Juan
                 Options.IdleTimeout = TimeSpan.FromMinutes(10);
             });
             services.AddHttpContextAccessor();
-
+            services.AddIdentity<AppUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 7;
+                options.User.RequireUniqueEmail = true;
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Lockout.MaxFailedAccessAttempts = 3;
+            }).AddEntityFrameworkStores<JuanDbContext>().AddDefaultTokenProviders();
         }
 
-
-
-
     }
+
+
+
+
+    
 }

@@ -1,74 +1,43 @@
-﻿@{
-    ViewData["Title"] = "Create Product";
+﻿@model Juan.Models.Product
+@{
+    ViewBag.Title = "Create Product";
 }
 
-<div class="col-lg-8">
-    <div class="card">
-        <div class="card-body">
-            <div class="d-flex justify-content-between align-items-center mb-7">
-                <h4 class="card-title">Create New Product</h4>
-                <button class="navbar-toggler border-0 shadow-none d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <i class="ti ti-menu fs-5 d-flex"></i>
-                </button>
-            </div>
-            <form id="createProductForm" method="post" enctype="multipart/form-data" action="/Product/CreateProduct">
-                <div class="mb-4">
-                    <label for="productName" class="form-label">Product Name <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" id="productName" name="ProductName" required>
-                    <p class="fs-2">A product name is required and recommended to be unique.</p>
-                </div>
 
-                <div class="mb-4">
-                    <label for="categorySelect" class="form-label">Category <span class="text-danger">*</span></label>
-                    <select class="form-control" id="categorySelect" name="CategoryId" required>
-                        <option value="1">Category 1</option>
-                        <option value="2">Category 2</option>
-                        <option value="3">Category 3</option>
-                     
-                    </select>
-                </div>
 
-                <div class="mb-4">
-                    <label for="price" class="form-label">Price <span class="text-danger">*</span></label>
-                    <input type="number" class="form-control" id="price" name="Price" step="0.01" required>
-                </div>
-
-                <div class="mb-4">
-                    <label for="oldPrice" class="form-label">Old Price</label>
-                    <input type="number" class="form-control" id="oldPrice" name="OldPrice" step="0.01">
-                </div>
-
-                <div class="mb-4">
-                    <label for="description" class="form-label">Description</label>
-                    <textarea class="form-control" id="description" name="Description"></textarea>
-                    <p class="fs-2">Set a description to the product for better visibility.</p>
-                </div>
-
-                <div class="mb-4">
-                    <label for="count" class="form-label">Count <span class="text-danger">*</span></label>
-                    <input type="number" class="form-control" id="count" name="Count" required>
-                </div>
-
-                <div class="mb-4">
-                    <label class="form-label">Upload Product Image</label>
-                    <input type="file" class="form-control" id="imageFile" name="ImageFile" required>
-                </div>
-
-                <div class="form-check mb-4">
-                    <input type="checkbox" class="form-check-input" id="isDeleted" name="IsDeleted">
-                    <label class="form-check-label" for="isSelected">Is Selected</label>
-                </div>
-
-                <div class="form-actions">
-                    <button type="submit" class="btn bg-primary-subtle text-primary">
-                        <span class="fs-4 me-1">+</span>
-                        Create New Product
-                    </button>
-                    <button type="button" class="btn bg-danger-subtle text-danger ms-6" onclick="window.history.back();">
-                        Cancel
-                    </button>
-                </div>
-            </form>
+<div class="container mt-5">
+    <h2>Create New Product</h2>
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="ProductName" class="control-label"></label>
+            <input asp-for="ProductName" class="form-control" />
+            <span asp-validation-for="ProductName" class="text-danger"></span>
         </div>
-    </div>
+
+        <div class="form-group">
+            <label asp-for="Desc" class="control-label"></label>
+            <textarea asp-for="Desc" class="form-control"></textarea>
+            <span asp-validation-for="Desc" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ImageFile" class="control-label"></label>
+            <input asp-for="ImageFile" class="form-control-file" type="file" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="Categories" class="control-label">Categories</label>
+            <select id="selectedCategories" name="selectedCategories" class="form-control" multiple="multiple">
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <option value="@category.CategoryId">@category.CategoryName</option>
+                }
+            </select>
+            <span asp-validation-for="ProductCategories" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
 </div>
+
