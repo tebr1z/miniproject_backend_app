@@ -83,23 +83,23 @@ namespace Juan.Areas.Manage.Controllers
                 return View(product);
             }
 
-            // Ürünü oluştur
+ 
             var newProduct = new Product
             {
                 ProductName = product.ProductName.Trim(),
                 Desc = product.Desc,
                 CreatedDate = DateTime.Now,
                 Img = savedImagePath,
-                // Diğer alanları doldur
+             
             };
 
             await _context.Products.AddAsync(newProduct);
-            await _context.SaveChangesAsync(); // Ürünü veritabanına kaydet
+            await _context.SaveChangesAsync(); 
 
-            // Ürün ID'sini al
+ 
             var productId = newProduct.ProductId;
 
-            // Kategorileri ekle
+         
             if (selectedCategories != null)
             {
                 var productCategories = selectedCategories.Select(categoryId => new ProductCategory
